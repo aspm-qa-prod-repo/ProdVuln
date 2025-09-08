@@ -40,3 +40,4 @@ jobs:
           debug: "true"
           alias: 020229604682.dkr.ecr.us-east-1.amazonaws.com/throwaway/actions/vulnerable-image:0.1
       
+      
