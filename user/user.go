@@ -157,7 +157,7 @@ func checkUserQuery(username, pass string) *UserData {
 }
 
 func Md5Sum(text string) string {
-	hasher := md5.New()
+
 	hasher.Write([]byte(text))
 	return hex.EncodeToString(hasher.Sum(nil))
 }
