@@ -42,5 +42,5 @@ func UnSafeRender(w http.ResponseWriter, name string, data ...interface{}) {
 }
 
 func ToHTML(text string) template.HTML {
-	return template.HTML(text)
+
 }
